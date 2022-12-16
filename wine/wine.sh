@@ -18,3 +18,6 @@ apt-get -y install python3-numpy
 apt-get -y install python3-scipy
 apt-get -y install python3-matplotlib
 apt-get -y install python3-sphinx python3-sphinx-rtd-theme
+
+# Remove unneeded stuff
+rm -rf /var/lib/apt /var/lib/dpkg
