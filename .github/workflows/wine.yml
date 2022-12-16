@@ -37,5 +37,5 @@ jobs:
         with:
           context: wine
           push: true
-          tags: ${{ steps.meta.outputs.tags }}
+          tags: ${{ env.REGISTRY }}/ldalek/${{ env.IMAGE_NAME }}:latest
           labels: ${{ steps.meta.outputs.labels }}
